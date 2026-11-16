@@ -45,29 +45,7 @@ Apresente a estrutura de pastas e arquivos e a responsabilidade de cada módulo 
 
 Informe o formato escolhido (texto ou binário), como os registros são lidos e gravados, como ocorrem edição e exclusão física e como são tratadas falhas.
 
-## 9. Compilação e execução
-
-Requisitos: compilador GCC e Make (opcional).
-
-Com Make:
-
-```bash
-make
-./programa
-```
-
-No Windows, o executável poderá ser `programa.exe`.
-
-Sem Make (Linux/macOS):
-
-```bash
-gcc -std=c11 -Wall -Wextra -Iinclude src/*.c -o programa
-./programa
-```
-
-Atualize estas instruções caso altere a estrutura.
-
-## 10. Testes realizados
+## 9. Testes realizados
 
 | Funcionalidade | Situação testada | Resultado obtido |
 |---|---|---|
@@ -80,11 +58,11 @@ Atualize estas instruções caso altere a estrutura.
 
 Inclua testes de arquivo inexistente, registro não encontrado e persistência após reiniciar o programa.
 
-## 11. Considerações finais
+## 10. Considerações finais
 
 Descreva os resultados, dificuldades, limitações e possíveis melhorias.
 
-## 12. Referências e citações
+## 11. Referências e citações
 
 Liste livros, documentação, artigos, tutoriais e demais fontes consultadas. Para fontes online, informe título, autor/instituição, URL e data de acesso. Cite no texto as fontes utilizadas e identifique trechos de código adaptados de terceiros.
 
